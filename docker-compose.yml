@@ -1,0 +1,8 @@
+services:
+
+  server:
+    image:  new-img
+    ports:
+      - "${PORT}:${PORT}"
+    env_file:
+    - .env
